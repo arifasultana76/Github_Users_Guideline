@@ -89,3 +89,53 @@ sub-branch থেকে main branch-এ কোড আনার জন্য PR �
 
 -> git commit --amend
 -> git push --force
+
+# PR পাঠানোর স্টেপ:
+
+1️⃣ GitHub repo fork করো
+
+যে project-এ contribute করতে চাও
+
+Fork বাটনে ক্লিক করো
+👉 নিজের GitHub-এ copy হবে
+
+2️⃣ Repo clone করো (local PC তে)
+git clone https://github.com/your-username/repo-name.git
+
+3️⃣ Repo folder-এ ঢুকো
+cd repo-name
+
+4️⃣ New branch বানাও
+git checkout -b fix-bug
+
+5️⃣ Code change করো
+
+Bug fix / feature / doc edit
+
+File save করো
+
+6️⃣ Change check করো
+git status
+
+7️⃣ Add & commit করো
+git add .
+git commit -m "Fix: small bug in login page"
+
+8️⃣ GitHub-এ push করো
+git push origin fix-bug
+
+9️⃣ Pull Request খুলে ফেলো
+
+GitHub repo-তে গেলে Compare & pull request দেখাবে
+
+Click করো
+
+Title + description লেখো
+
+Create pull request
+
+🔟 Review এর অপেক্ষা
+
+Maintainer review করবে
+
+Change চাইলে ঠিক করে আবার push করো
