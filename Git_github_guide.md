@@ -139,3 +139,12 @@ Create pull request
 Maintainer review করবে
 
 Change চাইলে ঠিক করে আবার push করো
+
+# Only repo clone:
+
+1. Go to the repo which is you want to open your vs code.
+2. Then click code then copy the repo url.
+3. Create a folder for repo.
+4. Then open created folder from your vs code. 
+5. Next open new terminal
+6. Then write --> git clone https://github.com/your-username/repo-name.git [here's just paste that copy url]
