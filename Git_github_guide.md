@@ -147,4 +147,5 @@ Change চাইলে ঠিক করে আবার push করো
 3. Create a folder for repo.
 4. Then open created folder from your vs code. 
 5. Next open new terminal
-6. Then write --> git clone https://github.com/your-username/repo-name.git [here's just paste that copy url]
+6. Then write --> git clone https://github.com/your-username/repo-name.git 
+[ Here's just paste that copy url]
